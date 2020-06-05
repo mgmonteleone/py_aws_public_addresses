@@ -1,10 +1,10 @@
 import unittest
-import awspublicranges
+from awspublicranges.ranges import AwsIpRanges
 
 class test_public_ranges(unittest.TestCase):
     def test_01_object_create(self):
-        out = awspublicranges.AwsIpRanges()
-        self.assertIsInstance(out,awspublicranges.AwsIpRanges)
+        out =AwsIpRanges()
+        self.assertIsInstance(out,AwsIpRanges)
 
 
 if __name__ == '__main__':
