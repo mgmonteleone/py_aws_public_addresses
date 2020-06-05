@@ -134,9 +134,3 @@ class AwsIpRanges(object):
         for each_entry in self.prefixes_for_lambda(region_filter=region_filter):
             count += 1
         return count
-
-
-out = AwsIpRanges()
-
-for each_range in out.prefixes_for_lambda('us-west-2'):
-    pprint(each_range.__dict__)
