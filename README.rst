@@ -1,7 +1,7 @@
 Atlas API
 ==========
 
-Small library to make grabbing an processing AWS public IP address ranges easier.
+Small library to make grabbing and processing AWS public IP address ranges easier.
 
 
 Usage
